@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Copyright>2021-2024 EpicChain Lab's</Copyright>
+    <AssemblyTitle>EpicChain.CLI</AssemblyTitle>
+    <Version>2.7.3</Version>
+    <Authors>EpicChain Lab's</Authors>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>epicchain-cli</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>EpicChain.CLI</PackageId>
+    <RootNamespace>Neo</RootNamespace>
+    <Company>EpicChain Lab's</Company>
+    <Product>EpicChain.CLI</Product>
+    <Description>EpicChain.CLI</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <DebugType>none</DebugType>
+    <DebugSymbols>False</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="config.json;config.mainnet.json;config.testnet.json;protocol.json;protocol.mainnet.json;protocol.testnet.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Neo" Version="2.7.3" />
+  </ItemGroup>
+
+</Project>
