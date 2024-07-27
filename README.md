@@ -1,4 +1,4 @@
-# EpicChain Node README
+# EpicChain Node
 
 Welcome to the EpicChain Node! This document provides comprehensive instructions for setting up, compiling, and using the EpicChain Node software. Follow these guidelines to ensure a smooth installation and operation of your node.
 
