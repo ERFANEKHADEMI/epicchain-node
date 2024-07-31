@@ -48,7 +48,7 @@ namespace Neo.Shell
 
             if (this.AvailableBonus() == Fixed8.Zero)
             {
-                Console.WriteLine($"no gas to claim");
+                Console.WriteLine($"no epicpulse to claim");
                 return null;
             }
 
