@@ -350,7 +350,7 @@ namespace Neo.Shell
                 "\tlist key\n" +
                 "\tshow utxo [id|alias]\n" +
                 "\tshow epicpulse\n" +
-                "\tclaim gas\n" +
+                "\tclaim epicpulse\n" +
                 "\tcreate address [n=1]\n" +
                 "\timport key <wif|path>\n" +
                 "\texport key [address] [path]\n" +
