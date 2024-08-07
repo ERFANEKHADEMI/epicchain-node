@@ -4,5 +4,5 @@ services:
   - docker
 
 script:
-  - docker build -f ci/Dockerfile -t neo-cli-ci .
+  - docker build -f ci/Dockerfile -t epicchain-cli-ci .
   - docker run neo-cli-ci /opt/ci/run-tests-in-docker.sh
