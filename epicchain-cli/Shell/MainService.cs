@@ -521,9 +521,9 @@ namespace Neo.Shell
             }
         }
 
-        //TODO: 目前没有想到其它安全的方法来保存密码
-        //所以只能暂时手动输入，但如此一来就不能以服务的方式启动了
-        //未来再想想其它办法，比如采用智能卡之类的
+       //TODO: Currently I can't think of any other safe way to save the password
+       //So I can only enter it manually for now, but then I can't start it as a service
+       //I'll ​​think of other ways in the future, such as using smart cards
         private bool OnOpenWalletCommand(string[] args)
         {
             if (args.Length < 3)
